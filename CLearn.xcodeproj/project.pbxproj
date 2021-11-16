@@ -19,6 +19,9 @@
 		64762CE52743AD35001FE7A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64762CE42743AD35001FE7A3 /* main.c */; };
 		64762CF02743B89E001FE7A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64762CEF2743B89E001FE7A3 /* main.c */; };
 		64762CFB2743C952001FE7A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64762CFA2743C952001FE7A3 /* main.c */; };
+		64B7EEB927440368009529F2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B7EEB827440368009529F2 /* main.c */; };
+		64B7EEC42744071E009529F2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B7EEC32744071E009529F2 /* main.c */; };
+		64B7EECF27440F7D009529F2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B7EECE27440F7D009529F2 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -148,6 +151,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		64B7EEB427440368009529F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		64B7EEBF2744071E009529F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		64B7EECA27440F7D009529F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -177,6 +207,12 @@
 		64762CEF2743B89E001FE7A3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64762CF82743C952001FE7A3 /* Pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pointers; sourceTree = BUILT_PRODUCTS_DIR; };
 		64762CFA2743C952001FE7A3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		64B7EEB627440368009529F2 /* Circle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Circle; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B7EEB827440368009529F2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		64B7EEC12744071E009529F2 /* Marathon in Kilometers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Marathon in Kilometers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B7EEC32744071E009529F2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		64B7EECC27440F7D009529F2 /* Temperature Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Temperature Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B7EECE27440F7D009529F2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +314,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64B7EEB327440368009529F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEBE2744071E009529F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEC927440F7D009529F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -296,6 +353,9 @@
 				64762CE32743AD35001FE7A3 /* Structures */,
 				64762CEE2743B89E001FE7A3 /* Standard_Input */,
 				64762CF92743C952001FE7A3 /* Pointers */,
+				64B7EEB727440368009529F2 /* Circle */,
+				64B7EEC22744071E009529F2 /* Marathon in Kilometers */,
+				64B7EECD27440F7D009529F2 /* Temperature Conversion */,
 				64531D55274148F50084391A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -317,6 +377,9 @@
 				64762CE22743AD35001FE7A3 /* Structures */,
 				64762CED2743B89E001FE7A3 /* Standard_Input */,
 				64762CF82743C952001FE7A3 /* Pointers */,
+				64B7EEB627440368009529F2 /* Circle */,
+				64B7EEC12744071E009529F2 /* Marathon in Kilometers */,
+				64B7EECC27440F7D009529F2 /* Temperature Conversion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -415,6 +478,30 @@
 				64762CFA2743C952001FE7A3 /* main.c */,
 			);
 			path = Pointers;
+			sourceTree = "<group>";
+		};
+		64B7EEB727440368009529F2 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				64B7EEB827440368009529F2 /* main.c */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		64B7EEC22744071E009529F2 /* Marathon in Kilometers */ = {
+			isa = PBXGroup;
+			children = (
+				64B7EEC32744071E009529F2 /* main.c */,
+			);
+			path = "Marathon in Kilometers";
+			sourceTree = "<group>";
+		};
+		64B7EECD27440F7D009529F2 /* Temperature Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				64B7EECE27440F7D009529F2 /* main.c */,
+			);
+			path = "Temperature Conversion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -658,6 +745,57 @@
 			productReference = 64762CF82743C952001FE7A3 /* Pointers */;
 			productType = "com.apple.product-type.tool";
 		};
+		64B7EEB527440368009529F2 /* Circle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7EEBC27440368009529F2 /* Build configuration list for PBXNativeTarget "Circle" */;
+			buildPhases = (
+				64B7EEB227440368009529F2 /* Sources */,
+				64B7EEB327440368009529F2 /* Frameworks */,
+				64B7EEB427440368009529F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circle;
+			productName = Circle;
+			productReference = 64B7EEB627440368009529F2 /* Circle */;
+			productType = "com.apple.product-type.tool";
+		};
+		64B7EEC02744071E009529F2 /* Marathon in Kilometers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7EEC52744071E009529F2 /* Build configuration list for PBXNativeTarget "Marathon in Kilometers" */;
+			buildPhases = (
+				64B7EEBD2744071E009529F2 /* Sources */,
+				64B7EEBE2744071E009529F2 /* Frameworks */,
+				64B7EEBF2744071E009529F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marathon in Kilometers";
+			productName = "Marathon in Kilometers";
+			productReference = 64B7EEC12744071E009529F2 /* Marathon in Kilometers */;
+			productType = "com.apple.product-type.tool";
+		};
+		64B7EECB27440F7D009529F2 /* Temperature Conversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7EED027440F7D009529F2 /* Build configuration list for PBXNativeTarget "Temperature Conversion" */;
+			buildPhases = (
+				64B7EEC827440F7D009529F2 /* Sources */,
+				64B7EEC927440F7D009529F2 /* Frameworks */,
+				64B7EECA27440F7D009529F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Temperature Conversion";
+			productName = "Temperature Conversion";
+			productReference = 64B7EECC27440F7D009529F2 /* Temperature Conversion */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -709,6 +847,15 @@
 					64762CF72743C952001FE7A3 = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					64B7EEB527440368009529F2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					64B7EEC02744071E009529F2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					64B7EECB27440F7D009529F2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = 64531D4F274148F50084391A /* Build configuration list for PBXProject "CLearn" */;
@@ -738,6 +885,9 @@
 				64762CE12743AD35001FE7A3 /* Structures */,
 				64762CEC2743B89E001FE7A3 /* Standard_Input */,
 				64762CF72743C952001FE7A3 /* Pointers */,
+				64B7EEB527440368009529F2 /* Circle */,
+				64B7EEC02744071E009529F2 /* Marathon in Kilometers */,
+				64B7EECB27440F7D009529F2 /* Temperature Conversion */,
 			);
 		};
 /* End PBXProject section */
@@ -850,6 +1000,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				64762CFB2743C952001FE7A3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEB227440368009529F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EEB927440368009529F2 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEBD2744071E009529F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EEC42744071E009529F2 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEC827440F7D009529F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EECF27440F7D009529F2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1191,6 +1365,54 @@
 			};
 			name = Release;
 		};
+		64B7EEBA27440368009529F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64B7EEBB27440368009529F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64B7EEC62744071E009529F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64B7EEC72744071E009529F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64B7EED127440F7D009529F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64B7EED227440F7D009529F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1325,6 +1547,33 @@
 			buildConfigurations = (
 				64762CFD2743C952001FE7A3 /* Debug */,
 				64762CFE2743C952001FE7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B7EEBC27440368009529F2 /* Build configuration list for PBXNativeTarget "Circle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7EEBA27440368009529F2 /* Debug */,
+				64B7EEBB27440368009529F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B7EEC52744071E009529F2 /* Build configuration list for PBXNativeTarget "Marathon in Kilometers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7EEC62744071E009529F2 /* Debug */,
+				64B7EEC72744071E009529F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B7EED027440F7D009529F2 /* Build configuration list for PBXNativeTarget "Temperature Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7EED127440F7D009529F2 /* Debug */,
+				64B7EED227440F7D009529F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
