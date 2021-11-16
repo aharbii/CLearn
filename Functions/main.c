@@ -35,6 +35,16 @@ void hello() {
 int ret5(){
     return 5;
 }
+
+int factorial(int n) {
+    int fact, i;
+    fact = 1;
+    for (i = 1 ; i < (n+1); i++) {
+        fact *= i;
+    }
+    return fact;
+}
+
 int main() {
     // insert code here...
     int a = min(4, 5);
@@ -45,5 +55,6 @@ int main() {
     printf("%d\n", c);
     hello();
     printf("%d\n", ret5());
+    printf("%d\n", factorial(4));
     return 0;
 }
