@@ -31,6 +31,10 @@ int is(int x, int y) {
 void hello() {
     printf("Hello!\n");
 }
+
+int ret5(){
+    return 5;
+}
 int main() {
     // insert code here...
     int a = min(4, 5);
@@ -40,5 +44,6 @@ int main() {
     int c = is(4, 5);
     printf("%d\n", c);
     hello();
+    printf("%d\n", ret5());
     return 0;
 }
