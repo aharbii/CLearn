@@ -6,10 +6,10 @@
 //
 
 #include <stdio.h>
+# include <stdlib.h>
 
-int main() {
+int main(void) {
     // insert code here...
-    int a = 2, b = 1, c = 2;
-    printf("%d\n", (a < b - c));
+    
     return 0;
 }
