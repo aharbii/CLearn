@@ -1,5 +1,5 @@
 /******************************************************************
- * File: probrlem_2.c
+ * File: problem_2.c
  * 
  * Description : Write a C program which reads two numbers “base”
  *               and “expo” , and calculate the power of base to
@@ -23,7 +23,7 @@
 
 #include <stdio.h>
 #include <math.h>
-#include "problem_2.h"
+#include "problem.h"
 
 int main() {
 
@@ -38,7 +38,7 @@ int main() {
     math_power = pow(base, expo);
     printf("Power from math header = %i\n", math_power);
 
-    def_power = cacl_power(base, expo);
+    def_power = calc_power(base, expo);
     printf("Power from defined function = %i\n", def_power);
     
     return 0;
@@ -47,8 +47,8 @@ int main() {
 
 
 
-int cacl_power(int base, int expo) {
-    int power = 1, i;
+double calc_power(int base, int expo) {
+    double power = 1, i;
     for (i = 0; i < expo; i++)
     {
         power *= base;

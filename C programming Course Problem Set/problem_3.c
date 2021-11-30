@@ -1,5 +1,5 @@
 /******************************************************************************
- * File: program_3.c
+ * File: problem_3.c
  * Description:  Write a C program which Reads an integer N from the standard 
  *               input. N is the size of the array arr. Fill array arr with N
  *               integers (from standard input).
@@ -10,7 +10,7 @@
  *****************************************************************************/
 
 #include <stdio.h>
-#include "problem_3.h"
+#include "problem.h"
 
 int main() {
 

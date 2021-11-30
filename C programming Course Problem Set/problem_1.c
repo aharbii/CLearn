@@ -1,5 +1,5 @@
 /******************************************************************************
- * File: program_1.c
+ * File: problem_1.c
  * Description:  Write a C program which reads two numbers a and b from the 
  *               standard input (Keyboard) and swap them, and then print them
  *               back on screen.
