@@ -10,10 +10,7 @@
 
 int main() {
     // insert code here...
-    printf("Hello, World!\nFirst number is %i\nSecond number is %i\n", 13, -4);
+    printf("Hello, World!\n");
     
-    putchar('A');putchar('\n');
-    
-    char str[] = "Another method";puts(str);
     return 0;
 }

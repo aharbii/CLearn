@@ -9,16 +9,20 @@
 **********************************************************/
 
 #include<stdio.h>
-#include<math.h> /* has  sin(), abs(), and fabs() */
 
 int main(void) { 
-    double interval;
-    int i;
-    for(i = 0.0; i < 30; i++) {
-        interval = i / 10.0;
-        printf("sin( %lf ) = %lf \t", interval, fabs(sin(interval)));
+    int number;
+    printf("Enter Number:   ");
+    scanf("%d", &number);
+    int i = 1;
+    while (number > 0)
+    {
+       if (i%2 == 0)
+        {
+            printf("%d,  ", i);
+            number--;
+        }
+        i++;
     }
-
-    printf("\n+++++++\n");
-    return 0;
+    printf("\n");
 }
